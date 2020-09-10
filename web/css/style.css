@@ -100,7 +100,6 @@ img{
 .introducao{
   width: 100%;
   background: url("../img/fotos/capa-home.jpg") no-repeat center;
-  background-size: cover;
   margin-top: 92px;
   height: 380px;
   text-align-last: center;
