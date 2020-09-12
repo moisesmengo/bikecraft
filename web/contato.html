@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/portifolio.css">
-  <title>Bickcraft - Portifólio</title>
+  <link rel="stylesheet" href="css/contato.css">
+  <title>Bickcraft - Contato</title>
 </head>
 <body>
   <header class="header">
@@ -28,29 +28,44 @@
     </div>
   </header>
 
-  <section class="introducao_interna interna_port">
+  <section class="introducao_interna interna_contato">
     <div class="container">
-      <h1>Portifólio</h1>
-      <p>Conheça os projetos que amamos mostrar</p>
+      <h1>contato</h1>
+      <p>Tire suas dúvidas com a gente</p>
     </div>
   </section>
 
-  <section class="container">
-    <blockquote class="quote-cliente">
-      <p>"No mundo atual, a contínua expansão de novas atividades cumpre
-      um papel essencial na formulação da gestão inovadora da qual fazemos parte"</p>
-      <cite>Barbara Moss</cite>
-    </blockquote>
-  </section>
-
-  <section class="portifolio">
-    <div class="container">
-      <ul class="portifolio_lista">
-        <li class="grid-8"><img src="img/fotos/esporte.jpg" alt="bicicleta esporte"></li>
-        <li class="grid-8"><img src="img/fotos/retro.jpg" alt="bicicleta retro"></li>
-        <li class="grid-16"><img src="img/fotos/passeio.jpg" alt="bicicleta passeio"></li>
+  <section class="contato container">
+    <form action="" id="form_contato" class="grid-8 contato_form">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome">
+      <label for="email">E-mail</label>
+      <input type="text" id="email">
+      <label for="telefone">Telefone</label>
+      <input type="text" id="telefone">
+      <label for="espec">Especificações</label>
+      <textarea id="espec"></textarea>
+      <button type="submit" class="btn btn-preto">Enviar</button>
+    </form>
+    <div class="contato_dados grid-8">
+      <h3>dados</h3>
+      <span>+ 55 84 988432080</span>
+      <span>orcamento@bikcraft.com</span>
+      <span>Rua Edilson Crisanto - Serra de São Bento</span>
+      <span>Serra de São Bento - RN - Brasil</span>
+      <h3>Redes sociais</h3>
+      <ul>
+        <li><a href="#"><img src="img/sociais/facebook.svg" alt=""></a></li>
+        <li><a href="#"><img src="img/sociais/instagram.svg" alt=""></a></li>
+        <li><a href="#"><img src="img/sociais/twitter.svg" alt=""></a></li>
       </ul>
     </div>
+  </section>
+
+  <section class="container contato_mapa">
+    <a href="" class="grid-16">
+      <img src="img/fotos/mapa.jpg" alt="Endereço">
+    </a>
   </section>
 
   <section class="quebra">
