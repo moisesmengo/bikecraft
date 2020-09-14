@@ -1,0 +1,41 @@
+/* Tablet */
+@media only screen and (min-width: 788px) and (max-width: 979px){
+}
+/* Smartphone */
+@media only screen and (max-width: 787px){
+    /* Header */
+    .header{
+        position: relative;
+        padding-bottom: 0;
+    }
+    .header img{
+        margin: 0 auto 10px auto;
+
+    }
+    .header_menu{
+        text-align: center;
+    }
+    .header_menu ul li{
+        margin: 5px;
+    }
+    .header_menu ul li a {
+        width: 130px;
+        display: block;
+        border: 4px solid #000;
+        float: left;
+    }
+    .header_menu ul li a:hover {
+        border-color: #fff;
+    }
+    /* Introdução */
+    .introducao{
+        margin-top: 0px;
+        padding-top: 20px;
+        text-align: center;
+        background: url('../img/fotos/capa-home-mobile.jpg') no-repeat center;
+        background-size: cover;
+    }
+    .introducao .btn{
+        margin-top: 10px;
+    }
+}
