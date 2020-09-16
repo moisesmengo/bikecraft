@@ -1,5 +1,20 @@
 /* Tablet */
 @media only screen and (min-width: 788px) and (max-width: 979px){
+    /* Qualidade Home */
+    .qualidade:after{
+        right: 66px;
+    }
+    .qualidade-lista li{
+        padding: 0 10px;
+    }
+    /* Footer */
+    .footer_sociais ul li a{
+        padding: 6px;
+    }
+    .footer_sociais ul li a img{
+        width: 26px;
+        height: 26px;
+    }
 }
 /* Smartphone */
 @media only screen and (max-width: 787px){
@@ -30,12 +45,23 @@
     /* Introdução */
     .introducao{
         margin-top: 0px;
-        padding-top: 20px;
+        padding-top: 40px;
         text-align: center;
         background: url('../img/fotos/capa-home-mobile.jpg') no-repeat center;
         background-size: cover;
     }
+    .introducao h1{
+        font-size: 36px;
+    }
     .introducao .btn{
         margin-top: 10px;
+    }
+    /* Call */
+    .call{
+        padding: 10px;
+    }
+    /* Qualidade Home */
+    .qualidade:after{
+        display: none;
     }
 }
