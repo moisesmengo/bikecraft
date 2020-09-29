@@ -3,6 +3,6 @@ Site desenvolvido durante o curso de webdesign completo da origamid. Vai desde a
 
 [Link](https://cranky-thompson-e4152b.netlify.app/index.html)
 # wireframe
-![Wireframe Home](../bikecraft/img/fotos/home.png)
+![Wireframe Home](img/fotos/home.png)
 # Design
-![Design Home](../bikecraft/img/fotos/home%20(1).png)
+![Design Home](img/fotos/home%20(1).png)
