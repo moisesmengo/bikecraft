@@ -1,8 +1,8 @@
 # Bikecraft
 Site desenvolvido durante o curso de webdesign completo da origamid. Vai desde a criação do wireframe até a codificação.
 
-[Link](https://link)
+[Link](https://cranky-thompson-e4152b.netlify.app/index.html)
 # wireframe
-![Wireframe Home](https://../web/img/fotos/home.png)
+![Wireframe Home](../bikecraft/img/fotos/home.png)
 # Design
-![Design Home](https://../web/img/fotos/home%20(1).png)
+![Design Home](../bikecraft/img/fotos/home%20(1).png)
